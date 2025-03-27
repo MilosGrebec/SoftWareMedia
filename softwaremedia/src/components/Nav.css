@@ -1,0 +1,39 @@
+.nav{
+    z-index: 10;
+    display: flex;
+    background-color: black;
+    height: 8vh;
+    box-shadow: 0 0px 12px rgb(255, 255, 255);
+}
+.nav input:hover{
+    border: 2px green;
+}
+.nav input{
+    border-radius: 10px;
+    border: 2px transparent;
+    color: black;
+    background-color: white;
+    width: 300px;
+    height: 30%;
+}
+.SearchImage{
+    margin-top: 0px;
+    width: 75px;
+    height: auto;
+}
+.buttons{
+    cursor: pointer;
+    margin-top: 3px;
+    width: 75px;
+    height: auto;
+}
+.imgs{
+    position: absolute;
+    margin-left: 1640px;
+}
+.navContainer{
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}

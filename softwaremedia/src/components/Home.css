@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Expo2-Light";
+    src: url("../assets/fonts/Expo2/Exo2-Light.ttf");
+}
+.home{
+    z-index: -1;
+    display: flex;
+}
+.stuff{
+    width: 43vh;
+    height: 92vh;
+    border-right: 10px solid black;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    width: 43vh
+}
+.mainContent{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    width: 110vh;
+
+}
+.stuff ul{
+    list-style-type: none;
+    font-family: "Expo2-Light";
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+.stuff ul p:hover{
+    background-color: black;
+}
+.mainConteiner{
+    border-radius: 20px;
+    background-color: black;
+    height: 653px;
+    width: 800px;
+}
+.navP{
+    display: flex;
+    margin-top: 10px;
+}
+.navPtext{
+    font-family: "Expo2-Light";
+    display: flex;
+    width: 100vh;
+    align-items: center;
+    margin-left: 20px;
+}
+.profileLogo{
+    border-radius: 1000px;
+    width: 80px;
+    margin-left: 30px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+}
+.postImg{
+    margin-top: 10px;
+}
+.postImage{
+    width:600px;
+}
+.postText{
+    font-family: "Expo2-Light";
+    display: flex;
+    margin-left: 100px;
+}
+.other{
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.other img{
+    cursor: pointer;
+    width: 60px;
+}
+.navChat:hover{
+    box-shadow: 0 0px 12px rgb(255, 255, 255);
+}
+.navChat{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    background-color: black;
+    display: flex;
+    margin-top: 10px;
+    color:white
+}
+.navCtext{
+    font-family: "Expo2-Light";
+    display: flex;
+    width: 100vh;
+    align-items: center;
+    margin-left: 20px;
+}
