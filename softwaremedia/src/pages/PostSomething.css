@@ -1,0 +1,13 @@
+textarea{
+    max-width: 780px;
+    min-width: 780px;
+}
+.postsomething label{
+    font-size: 20px;
+}
+.postsomething .LoginForm label{
+    text-align: center;
+}
+.postimage{
+    width: 100%;   
+}

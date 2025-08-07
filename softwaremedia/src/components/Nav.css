@@ -1,5 +1,7 @@
 .nav{
-    z-index: 10;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
     display: flex;
     background-color: black;
     height: 8vh;
@@ -9,6 +11,7 @@
     border: 2px green;
 }
 .nav input{
+    text-align: center;
     border-radius: 10px;
     border: 2px transparent;
     color: black;
@@ -17,6 +20,7 @@
     height: 30%;
 }
 .SearchImage{
+    cursor: pointer;
     margin-top: 0px;
     width: 75px;
     height: auto;
