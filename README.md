@@ -44,7 +44,7 @@ That search bar above is used to find users; when you type someone's name there 
 
 Also, if you don't log out and just exit the website, when you come back you will still be logged in. I did that using JSON web tokens.
 
-That's it more or less. There are a bunch of things I will fix in the "near" future; the biggest of them all is that loading. Now, for example, when you go to the home page, it loads you all posts; if you leave and come back, it will again send a request to the server and such.
+That's it more or less. There are a bunch of things I will fix in the "near" future; the biggest of them all is loading or rather efficiency. Now, for example, when you go to the home page, it loads you all posts; if you leave and come back, it will again send a request to the server and such.
 
 I will fix this by making a global context of posts, and then it loads only once at the beginning, and the same thing applies to the blocked list and friend list.
 
