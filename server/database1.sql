@@ -84,11 +84,13 @@ INSERT INTO Users (username, password) VALUES
 drop table posts;
  
 INSERT INTO Posts (userID, text, image) VALUES
-(9, 'I hate this nigga', 'quan.png'),
-(10, 'Gonna kill this nigger', 'quan.png'),
-(12, 'kill all niggers', 'quan.png');
+(9, 'QuanDingleMeme', 'quan.png'),
+(10, 'Look at this old meme', 'quan.png');
+
 
 select * from users;
+
+delete from users where userID=17;
 
 select * from posts;
 
@@ -104,5 +106,3 @@ select p.postID
 from Liked l
 inner join Posts p on l.postID=p.postID
 where l.userID=1;
-
-
