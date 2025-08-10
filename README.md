@@ -28,7 +28,7 @@ This is what the post form looks like:
 
 <img width="1855" height="790" alt="image" src="https://github.com/user-attachments/assets/43200ec8-d31c-4e4b-84d0-3a31735ce0d8" />
 
-Back on the profile page If you go to the liked section, posts you liked will be shown; if you go to the blocked section, there will be a list of users that you blocked and an option to unblock them.
+Back on the profile page If you go to the liked section, posts you liked will be shown; if you go to the blocked section, there will be a list of users that you blocked and an option to unblock them (you can't see posts of people you blocked).
 
 <img width="1919" height="676" alt="image" src="https://github.com/user-attachments/assets/2e5ebbbd-0537-4d6d-ae7d-653bea8e5ba3" />
 
